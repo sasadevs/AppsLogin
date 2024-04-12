@@ -13,13 +13,13 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/logo" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:gravity="center"
         android:text="Apps Login"
         android:textColor="@color/white"
@@ -51,7 +51,50 @@
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
+        app:boxStrokeColor="@color/white"
+        app:boxStrokeWidth="3dp"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableEnd="@drawable/baseline_email_"
+            android:drawableTint="@color/white"
+            android:inputType="text"
+            android:text="sasadevs@gmail.com"
+            android:textColor="@color/white" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        app:boxStrokeColor="@color/white"
+        app:boxStrokeWidth="3dp"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableEnd="@drawable/baseline_lock_"
+            android:drawableTint="@color/white"
+            android:inputType="textPassword"
+            android:text="********"
+            android:textColor="@color/white" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
         app:boxStrokeColor="@color/white"
         app:boxStrokeWidth="3dp"
         app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full">
@@ -73,30 +116,9 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="25dp"
         android:backgroundTint="#052D9F"
         android:text="Entrar" />
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="#0000"
-        android:text="Esqueceu a senha?"
-        android:textColor="@color/white"
-        android:textSize="15dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="55dp"
-        android:backgroundTint="#0000"
-        android:text="Criar uma conta."
-        android:textColor="@color/white"
-        android:textSize="15dp" />
 
 
 </LinearLayout>
