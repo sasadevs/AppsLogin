@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E83C61"
+    android:background="#e12d54"
     android:orientation="vertical"
     tools:context=".CadastroActivity2">
 
@@ -89,14 +89,13 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 
-    <Button
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="100dp"
+        android:layout_height="45dp"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
-        android:backgroundTint="#F1073D"
-        android:text="Entrar"
-        android:drawableRight="@drawable/baseline_login_"
+        android:backgroundTint="#FF0D45"
+        android:drawableTop="@drawable/baseline_login_"
         android:drawableTint="@color/white"
         />
 
